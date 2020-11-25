@@ -86,7 +86,7 @@ function calc (size) {
 
   }
 
-  if (size % 2 === 0) return success * 2;
+  // if (size % 2 === 0) return success * 2;
   return success;
   
 }

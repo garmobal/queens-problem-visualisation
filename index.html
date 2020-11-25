@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Mother of nests</title>
+</head>
+<body>
+
+  <div class="container">
+    <div id="header">
+      <form id="form-create" action="">
+        <label for="size">Choose a size:</label>
+        <select id="boardsize" name="size">
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+        <input type="submit" value="create boards" class="button">
+      </form>   
+      <p id="solutions-p"></p>       
+    </div> 
+    <div id="boards-div"></div>
+
+  </div>
+  
+  <script src="queenscopy.js"></script>
+</body>
+</html>
+
